@@ -3,3 +3,76 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto";
+}
+
+.d-flex {
+  display: flex;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.col_6 {
+  width: calc(100% / 2);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+nav .navbar a {
+  position: relative;
+  text-decoration: none;
+  margin: 10px 10px;
+  margin-right: 10px;
+  color: #58402c;
+}
+nav .navbar button {
+  font-size: 16px;
+  color: blue;
+  border: 1px solid blue;
+  padding: 5px 8px;
+  border-radius: 5px;
+  background-color: white;
+}
+nav .navbar button img {
+  width: 25px;
+  vertical-align: middle;
+}
+nav .navbar .icona {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .navbar a,
+.navbar button {
+    display: none;
+  }
+  .navbar .icona {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 551px) and (max-width: 998px) {
+  .navbar a,
+.navbar button {
+    display: none;
+  }
+  .navbar .icona {
+    display: block !important;
+  }
+}
+main #understund .row .col_6 .img {
+  width: 100%;
+}
+main #understund .row .col_6 .img img {
+  width: 100% !important;
+}
