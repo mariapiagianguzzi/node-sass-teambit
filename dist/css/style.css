@@ -70,9 +70,9 @@ nav .navbar .icona {
     display: block !important;
   }
 }
-main #understund .row .col_6 .img {
-  width: 100%;
+main #understand .row .col_6 .img {
+  max-width: 100%;
 }
-main #understund .row .col_6 .img img {
-  width: 100% !important;
+main #understand .row .col_6 .img img {
+  max-width: 100%;
 }

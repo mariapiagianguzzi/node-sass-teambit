@@ -1,11 +1,11 @@
 main {
-  #understund {
+  #understand {
     .row {
       .col_6 {
         .img {
-          width: 100%;
+          max-width: 100%;
           img {
-            width: 100% !important;
+            max-width: 100%;
           }
         }
       }
