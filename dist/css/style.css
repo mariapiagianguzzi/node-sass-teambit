@@ -21,6 +21,10 @@ body {
   width: calc(100% / 2);
 }
 
+p {
+  color: #58402c;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -75,4 +79,15 @@ main #understand .row .col_6 .img {
 }
 main #understand .row .col_6 .img img {
   max-width: 100%;
+}
+main #understand .row h1 {
+  color: #58402c;
+  width: 103%;
+  padding: 30px;
+  font-size: 4rem;
+}
+main #understand .row p {
+  padding: 30px;
+  width: 90%;
+  font-size: 162%;
 }

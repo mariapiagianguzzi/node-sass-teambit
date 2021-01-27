@@ -9,6 +9,17 @@ main {
           }
         }
       }
+      h1 {
+        color: $textbrown;
+        width: 103%;
+        padding: 30px;
+        font-size: 4rem;
+      }
+      p {
+        padding: 30px;
+        width: 90%;
+        font-size: 162%;
+      }
     }
   }
 }
